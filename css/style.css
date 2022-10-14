@@ -208,7 +208,8 @@ hr {
     width: min (90%, 75rem);
     display: grid;
     grid-auto-flow: row;
-    gap: 1em;
+    /* gap: 1em; */
+    grid-gap: 1em;
 }
 
 @media (min-width: 50em) {
