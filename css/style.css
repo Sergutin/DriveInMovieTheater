@@ -48,8 +48,24 @@ p, h1 {
     background: url('../css/images/drive-in.jpeg') no-repeat center center;
     background-size: cover;
 }
+/* 
+#welcome-text h2 {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: normal;
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+    padding-left: auto;
+    color: darkmagenta;
+    top: 15%;
+    left: 27%;
+    position: absolute;
+} */
 
-#welcome-text h1 {
+#welcome-text {
     font-size: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
@@ -384,7 +400,16 @@ ul.list {
         margin: auto 0 auto 0;
     }
 
-    #welcome-text h1 {
+    /* #welcome-text h2 {
+        padding-top: 3px;
+        padding-right: 3px;
+        top: 15%;
+        left: 7%;
+        position: absolute;
+        text-align: center;
+    } */
+
+    #welcome-text {
         padding-top: 3px;
         padding-right: 3px;
         top: 15%;
@@ -392,7 +417,6 @@ ul.list {
         position: absolute;
         text-align: center;
     }
-
 }
 
 @media screen and (max-width:425px) {
