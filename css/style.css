@@ -187,14 +187,6 @@ hr {
     padding-bottom: 20px;
 }
 
-/* .grid {
-    margin: 0;
-    width: min (90%, 75rem);
-    display: grid;
-    grid-auto-flow: row;
-    gap: 1em;
-} */
-
 .grid {
     margin: 0;
     width: min (90%, 75rem);
