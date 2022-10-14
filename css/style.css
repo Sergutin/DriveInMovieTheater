@@ -249,6 +249,7 @@ hr {
 .sm {
     text-align: center;
     color: white;
+    padding-left: 0;
 }
 
 #moviessm {
