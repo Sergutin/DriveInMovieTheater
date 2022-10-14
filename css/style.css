@@ -1,0 +1,509 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p, h1 {
+    color: aliceblue;
+}
+
+#logo {
+    float: right;
+    font-size: 130%;
+    letter-spacing: normal;
+    color: aliceblue;
+    margin: 0 50px;
+}
+
+#menu {
+    font-size: 115%;
+    letter-spacing: 2px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu a:hover {
+    border-bottom: 3px solid black;
+}
+
+.active {
+    border-bottom: 2px solid aliceblue;
+}
+
+#drive-in {
+    height: 600px;
+    width: 100%;
+    background: url('../css/images/drive-in.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+#welcome-text h1 {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: normal;
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+    padding-left: auto;
+    color: darkmagenta;
+    top: 15%;
+    left: 27%;
+    position: absolute;
+}
+
+#about {
+    background-color: #f2ebbf;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    line-height: 1.5;
+}
+
+#about h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: brown;
+}
+
+#about p {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: brown;
+}
+
+#food {
+    background-color: #f2ebbf;
+    margin-top: -25px;
+    line-height: 1.5;
+}
+
+#food h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: brown;
+}
+
+#food h2, #food p {
+    color: brown;
+}
+
+#food p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#grid1 {
+    background-color: white;
+    height: auto;
+    color: grey;
+}
+
+#grid1 p {
+    color: grey;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+#grid2 div {
+    height: 300px;
+    width: auto;
+    margin-top: 70px;
+}
+
+#movie2mon, #movie2sat {
+    background: url('../css/images/noexit.jpg') no-repeat center center;
+    background-size: contain;
+    color: aliceblue;
+}
+
+#movie1mon, #movie1sat {
+    background: url('../css/images/avatar.jpeg') no-repeat center center;
+    background-size: contain;
+    color: aliceblue;
+}
+
+#movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
+    font-size: 200%;
+}
+
+.moviesbody {
+    /* margin: auto 50px auto 0; */
+    margin: 0 auto;
+}
+
+.homebody, .contactsbody, .faqbody {
+    background-color: #d1d1d1;
+    margin: 0 auto;
+    margin-top: -20px !important;
+}
+
+.faqbody {
+    background: url('../css/images/drive-in.jpeg');
+    background-size: cover;
+}
+
+.moviesbody {
+    background: url('../css/images/drive-in.jpeg') no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-color: #d1d1d1;
+    margin-top: -20px !important;
+}
+
+.contactsbody {
+    background: url('../css/images/drive-in.jpeg') no-repeat;
+    background-size: cover;
+}
+
+hr {
+    border-top: 2px solid grey; 
+    width: 100%;
+    margin: 5px 0;
+}
+
+#hiw {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 200%;
+    background-color: white;
+    color: grey;
+    margin-bottom: -1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grid {
+    margin: 0;
+    width: min (90%, 75rem);
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1em;
+}
+
+@media (min-width: 50em) {
+    .grid {
+        grid-auto-flow: column;
+    }
+}
+
+.faq, .faq2 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.faq {
+    padding-top: 120px;
+    margin: 0 auto;
+}
+
+#faq p {
+    color: aliceblue;
+    line-height: 1.5;
+}
+
+#faq h3 {
+    color: rgb(196, 186, 129);
+}
+
+.grid h2 {
+    text-align: center;
+}
+
+.grid p {
+    text-align: center;
+}
+
+#contacts {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 120px;
+    color: aliceblue;
+    line-height: 1.5;
+}
+
+#contacts h1 {
+    color: aliceblue;
+    font-size: 200%;
+}
+
+#map {
+    height: 250px;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.sm {
+    text-align: center;
+    color: white;
+}
+
+#moviessm {
+    margin: 300px 0 0 0; 
+    padding: 0 0 10px 0;
+}
+
+.sm li {
+    display:  inline;
+}
+
+.sm i {
+    font-size: 150%;
+    margin: 0 50px 0 50px;
+    color: white;
+}
+
+#movies {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 250%;
+    margin: 0 auto;
+}
+
+#button:hover {
+    background-color: rgb(115, 166, 135);
+ }
+
+#message {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+ }
+
+#name, #email {
+    width: 300px;
+    margin: 10px;
+}
+
+#faq {
+    margin: auto 50px auto 50px;
+}
+
+#questions {
+    text-align: center;
+    color: rgb(231, 188, 47);
+    padding-top: 100px;
+}
+
+div.container {
+    text-align: center;
+  }
+
+ul.list {
+    display: inline-block;
+    text-align: left;
+    color: brown;
+    margin-top: 0;
+}
+
+@media screen and (max-width:1200px) {
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+
+        /* margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px; */
+    }
+
+    .sm i {
+        font-size: 150%;
+        margin: 0 13px 0 13px;
+        color: white;
+    }
+
+    #menu li {
+        margin-right: 4px;
+    }
+
+    #about p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #food p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #grid1 p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #faq {
+        margin: auto 20px auto 20px;
+    }
+
+    /* #movies, #faq, #contacts {
+        padding-top: auto;
+    } */
+
+    .faq {
+        /* padding-top: auto; */
+        font-size: 150%;
+    }
+
+    #contacts h1 {
+        font-size: 150%;
+    }
+
+    #logo, #menu {
+        font-size: small;
+        margin: 0;
+        /* line-height: auto; */
+    }
+
+    #movies {
+        font-size: 150%;
+        margin: 0;
+    }
+
+    .moviesbody {
+        margin: auto 0 auto 0;
+    }
+
+    #welcome-text h1 {
+        padding-top: 3px;
+        padding-right: 3px;
+        top: 15%;
+        left: 7%;
+        position: absolute;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+  #menu {
+    margin: -55px 0 0 -20px;
+  }
+
+  #contacts {
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+
+  #logo {
+  
+  }
+
+  #grid2 div {
+    height: 200px;
+    width: auto;
+    margin-top: 70px;
+    }
+
+    #moviessm {
+    margin: 50px 0 0 0; 
+    padding: 0 0 10px 0;
+}
+
+
+}
+
+@media screen and (max-width:5000px) {
+    #grid2 div {
+        height: 600px;
+        width: auto;
+        margin-top: 70px;
+    }
+} 
+ 
+@media screen and (max-width:1440px) {
+    #grid2 div {
+        height: 400px;
+        width: auto;
+        margin-top: 70px;
+    }
+
+    #movie1mon h2, #movie2mon h2 {
+        font-size: 180%;
+    }
+
+    #movie1sat h2, #movie2sat h2 {
+        font-size: 170%;
+    }
+
+    #movie2mon, #movie2sat, #movie1mon, #movie1sat {
+        background-size: 250px;
+    }
+    
+} 
+
+@media screen and (max-width:1024px) {
+    #grid2 div {
+        height: 300px;
+        width: auto;
+        margin-top: 70px;
+    }
+
+    #moviessm {
+        margin: 400px 0 0 0; 
+        padding: 0 0 10px 0;
+    }
+
+    #movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
+        font-size: 135%;
+    }
+
+    #movie2mon, #movie2sat, #movie1mon, #movie1sat {
+        background-size: 200px;
+    }
+} 
+
+@media screen and (max-width:768px) {
+    #grid2 div {
+        height: 400px;
+        width: auto;
+        margin-top: 70px;
+    }
+
+    #moviessm {
+        margin: 50px 0 0 0; 
+        padding: 0 0 10px 0;
+    }
+
+    #movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
+        font-size: 180%;
+    }
+
+    #movie2mon, #movie2sat, #movie1mon, #movie1sat {
+        background-size: 260px;
+    }
+} 
+
+@media screen and (max-width:375px) {
+    
+
+    
+
+    #movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
+        font-size: 150%;
+    }
+
+    #movie2mon, #movie2sat, #movie1mon, #movie1sat {
+        background-size: 240px;
+    }
+} 
