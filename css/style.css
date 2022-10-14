@@ -48,22 +48,6 @@ p, h1 {
     background: url('../css/images/drive-in.jpeg') no-repeat center center;
     background-size: cover;
 }
-/* 
-#welcome-text h2 {
-    font-size: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    font-style: italic;
-    letter-spacing: normal;
-    width: auto;
-    height: auto;
-    padding-top: 50px;
-    padding-left: auto;
-    color: darkmagenta;
-    top: 15%;
-    left: 27%;
-    position: absolute;
-} */
 
 #welcome-text {
     font-size: 40px;
@@ -74,7 +58,6 @@ p, h1 {
     width: auto;
     height: auto;
     padding-top: 50px;
-    /* padding-left: auto; */
     color: darkmagenta;
     top: 15%;
     left: 27%;
@@ -135,10 +118,32 @@ p, h1 {
     line-height: 1.5;
 }
 
+.grid {
+    margin: 0;
+    /* width: min(90%, 75rem); */
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1em;
+}
+
+@media (min-width: 50em) {
+    .grid {
+        grid-auto-flow: column;
+    }
+}
+
 #grid2 div {
     height: 300px;
     width: auto;
     margin-top: 70px;
+}
+
+.grid h2 {
+    text-align: center;
+}
+
+.grid p {
+    text-align: center;
 }
 
 #movie2mon, #movie2sat {
@@ -158,7 +163,6 @@ p, h1 {
 }
 
 .moviesbody {
-    /* margin: auto 50px auto 0; */
     margin: 0 auto;
 }
 
@@ -203,20 +207,6 @@ hr {
     padding-bottom: 20px;
 }
 
-.grid {
-    margin: 0;
-    width: min(90%, 75rem);
-    display: grid;
-    grid-auto-flow: row;
-    gap: 1em;
-}
-
-@media (min-width: 50em) {
-    .grid {
-        grid-auto-flow: column;
-    }
-}
-
 .faq, .faq2 {
     text-align: center;
     color: aliceblue;
@@ -234,14 +224,6 @@ hr {
 
 #faq h3 {
     color: rgb(196, 186, 129);
-}
-
-.grid h2 {
-    text-align: center;
-}
-
-.grid p {
-    text-align: center;
 }
 
 #contacts {
