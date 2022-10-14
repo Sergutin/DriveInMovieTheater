@@ -58,7 +58,7 @@ p, h1 {
     width: auto;
     height: auto;
     padding-top: 50px;
-    padding-left: auto;
+    /* padding-left: auto; */
     color: darkmagenta;
     top: 15%;
     left: 27%;
@@ -429,6 +429,11 @@ ul.list {
         width: auto;
         margin-top: 70px;
     }
+
+    #moviessm {
+        margin: 1300px 0 0 0; 
+        padding: 0 0 10px 0;
+    }
 } 
  
 @media screen and (max-width:1440px) {
@@ -448,6 +453,11 @@ ul.list {
 
     #movie2mon, #movie2sat, #movie1mon, #movie1sat {
         background-size: 250px;
+    }
+
+    #moviessm {
+        margin: 600px 0 0 0; 
+        padding: 0 0 10px 0;
     }
     
 } 
@@ -496,9 +506,6 @@ ul.list {
 
 @media screen and (max-width:375px) {
     
-
-    
-
     #movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
         font-size: 150%;
     }
