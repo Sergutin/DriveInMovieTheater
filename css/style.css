@@ -370,7 +370,7 @@ ul.list {
 
     #logo, #menu {
         font-size: small;
-        margin: 0 3px 0 0;
+        margin: 0;
         /* line-height: auto; */
     }
 
@@ -412,10 +412,7 @@ ul.list {
     padding-top: 100px;
   }
 
-  #logo, #menu {
-    margin: 0 3px 0 0;
-    /* line-height: auto; */
-    }
+
 
   #grid2 div {
     height: 200px;
@@ -509,11 +506,6 @@ ul.list {
 
     #movie2mon, #movie2sat, #movie1mon, #movie1sat {
         background-size: 260px;
-    }
-
-    #logo, #menu {
-        margin: 0 3px 0 0;
-        /* line-height: auto; */
     }
 } 
 
