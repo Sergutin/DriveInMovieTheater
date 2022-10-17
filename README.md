@@ -4,7 +4,7 @@
 <p>Target audience: all age groups, families with children, young adults.</p>
 <p>The main goal of the project is to provide all information about Cork Drive-In Movie Theatre, its location, general overview, movies broadcasted etc. Through this website people can get interested in the service we offer and visit our movie theater.</p>
 
-<img src="/Users/igorsergutin/Desktop/Coding/PP1/Readme/Screenshot 2022-10-17 at 14.47.27.png>
+<img src="../css/images-readme/devices.png"> 
 
 <h3>Languages Used</h3>
 <p>HTML5</p>
