@@ -93,7 +93,7 @@ p, h1 {
     color: brown;
 }
 
-/* ------------------------------------ F --------------------------------- */
+/* ------------------------------------ FOOD --------------------------------- */
 
 #food {
     background-color: #f2ebbf;
@@ -119,11 +119,11 @@ p, h1 {
 #grid1 {
     background-color: white;
     height: auto;
-    color: grey;
+    color: #505050;
 }
 
 #grid1 p {
-    color: grey;
+    color: #505050;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20px;
@@ -178,7 +178,7 @@ p, h1 {
 }
 
 .homebody, .contactsbody {
-    background-color: darkgrey;
+    background-color: #707070;
     margin: 0 auto;
     margin-top: -20px !important;
 }
@@ -215,7 +215,7 @@ hr {
     margin: 25px 0;
     font-size: 200%;
     background-color: white;
-    color: grey;
+    color: #505050;
     margin-bottom: -1px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -328,6 +328,8 @@ ul.list {
     color: brown;
     margin-top: 0;
 }
+
+/* ------------------------------------ MEDIA QUERIES --------------------------------- */
 
 @media screen and (max-width:1200px) {
     hr {
