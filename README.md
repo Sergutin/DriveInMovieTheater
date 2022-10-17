@@ -23,7 +23,7 @@
 <h3>Logo</h3>
 <p>The Logo at the top right corner shows the name of the movie theater, and is clickable - it redirects the user to the Home page every time they click it.</p>
 
-<img src=".css/images-readme/logo.jpg">
+<img src="./css/images-readme/logo.jpg">
 
 <h3>About Us section</h3>
 <p>The About Us section will allow the user to see the brief overview of the movie theater, as well as its location.</p>
@@ -91,3 +91,11 @@ Instructions on how to use Grid CSS was taken from YouTube Tutorial https://yout
 
 <h3>Content</h3>
 <p>The icons in the footer were taken from Font Awesome (https://fontawesome.com/) </p>
+
+<h3>Media</h3>
+<p>The background image was taken from “The best date ideas in NYC” article: https://media.timeout.com/images/105659820/1372/772/image.jpg</p>
+<p>Movie Avatar image was taken from IMDb website: https://m.media-amazon.com/images/M/MV5BMWFmYmRiYzMtMTQ4YS00NjA5LTliYTgtMmM3OTc4OGY3MTFkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg</p>
+<p>Movie No Exit image was taken from IMDb website: https://m.media-amazon.com/images/M/MV5BYTc4M2Q2Y2YtMjM0MS00ZTEyLWExYmMtMjEzNjlmNTNjMWYxXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_FMjpg_UX1000_.jpg</p>
+
+<h3>Deployment</h3>
+<p>The site is deployed using GitHub pages.</p>
