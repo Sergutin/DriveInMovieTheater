@@ -192,7 +192,7 @@ p, h1 {
 }
 
 .moviesbody {
-    background: url('../css/images/drive-in-movies.jpg') no-repeat;
+    background: url('../css/images/drive-in.jpeg') no-repeat;
     min-height: 100vh;
     background-size: cover;
     background-color: #d1d1d1;
@@ -244,13 +244,17 @@ hr {
     text-align: center;
     margin: 0 auto;
     padding-top: 120px;
-    color: aliceblue;
+    color: black;
     line-height: 1.5;
 }
 
 #contacts h1 {
-    color: aliceblue;
+    color: black;
     font-size: 200%;
+}
+
+#contacts p {
+    color: black;
 }
 
 #map {
@@ -364,7 +368,7 @@ ul.list {
         padding-right: 20px;
         text-align: justify;
     }
-
+    
     #faq {
         margin: auto 20px auto 20px;
     }
@@ -456,7 +460,7 @@ ul.list {
     }
 
     #moviessm {
-        margin: 300px 0 0 0; 
+        margin: 400px 0 0 0; 
         padding: 0 0 10px 0;
     }
     
@@ -470,7 +474,7 @@ ul.list {
     }
 
     #moviessm {
-        margin: 400px 0 0 0; 
+        margin: 500px 0 0 0; 
         padding: 0 0 10px 0;
     }
 
@@ -481,6 +485,7 @@ ul.list {
     #movie2mon, #movie2sat, #movie1mon, #movie1sat {
         background-size: 200px;
     }
+
 } 
 
 @media screen and (max-width:768px) {
