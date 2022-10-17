@@ -120,7 +120,6 @@ p, h1 {
 
 .grid {
     margin: 0;
-    /* width: min(90%, 75rem); */
     display: grid;
     grid-auto-flow: row;
     gap: 1em;
@@ -320,10 +319,6 @@ ul.list {
     #menu {
         clear: left;
         float: left;
-
-        /* margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px; */
     }
 
     .sm i {
@@ -355,12 +350,7 @@ ul.list {
         margin: auto 20px auto 20px;
     }
 
-    /* #movies, #faq, #contacts {
-        padding-top: auto;
-    } */
-
     .faq {
-        /* padding-top: auto; */
         font-size: 150%;
     }
 
@@ -371,7 +361,6 @@ ul.list {
     #logo, #menu {
         font-size: small;
         margin: 0;
-        /* line-height: auto; */
     }
 
     #movies {
@@ -382,15 +371,6 @@ ul.list {
     .moviesbody {
         margin: auto 0 auto 0;
     }
-
-    /* #welcome-text h2 {
-        padding-top: 3px;
-        padding-right: 3px;
-        top: 15%;
-        left: 7%;
-        position: absolute;
-        text-align: center;
-    } */
 
     #welcome-text {
         padding-top: 3px;
@@ -424,8 +404,6 @@ ul.list {
     margin: 50px 0 0 0; 
     padding: 0 0 10px 0;
 }
-
-
 }
 
 @media screen and (max-width:5000px) {
@@ -510,7 +488,6 @@ ul.list {
 } 
 
 @media screen and (max-width:375px) {
-    
     #movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
         font-size: 150%;
     }
