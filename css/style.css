@@ -6,6 +6,8 @@ p, h1 {
     color: aliceblue;
 }
 
+/* ------------------------------------ LOGO --------------------------------- */
+
 #logo {
     float: right;
     font-size: 130%;
@@ -13,6 +15,12 @@ p, h1 {
     color: aliceblue;
     margin: 0 50px;
 }
+
+.darkmagenta {
+    color: darkmagenta;
+}
+
+/* ------------------------------------ NAVBAR --------------------------------- */
 
 #menu {
     font-size: 115%;
@@ -64,6 +72,8 @@ p, h1 {
     position: absolute;
 }
 
+/* ------------------------------------ ABOUT --------------------------------- */
+
 #about {
     background-color: #f2ebbf;
     margin-top: -25px;
@@ -82,6 +92,8 @@ p, h1 {
     padding-right: 50px;
     color: brown;
 }
+
+/* ------------------------------------ F --------------------------------- */
 
 #food {
     background-color: #f2ebbf;
@@ -165,19 +177,22 @@ p, h1 {
     margin: 0 auto;
 }
 
-.homebody, .contactsbody, .faqbody {
-    background-color: #d1d1d1;
+.homebody, .contactsbody {
+    background-color: darkgrey;
     margin: 0 auto;
     margin-top: -20px !important;
 }
 
 .faqbody {
+    margin: 0 auto;
+    margin-top: -20px !important;
     background: url('../css/images/drive-in.jpeg');
     background-size: cover;
+    background-color: rgba(255,255,255,0.4);
 }
 
 .moviesbody {
-    background: url('../css/images/drive-in.jpeg') no-repeat;
+    background: url('../css/images/drive-in-movies.jpg') no-repeat;
     min-height: 100vh;
     background-size: cover;
     background-color: #d1d1d1;
@@ -208,7 +223,7 @@ hr {
 
 .faq, .faq2 {
     text-align: center;
-    color: aliceblue;
+    color: #070D0D;
 }
 
 .faq {
@@ -217,7 +232,7 @@ hr {
 }
 
 #faq p {
-    color: aliceblue;
+    color: #070D0D;
     line-height: 1.5;
 }
 
@@ -252,7 +267,7 @@ hr {
 }
 
 #moviessm {
-    margin: 300px 0 0 0; 
+    margin: 0; 
     padding: 0 0 10px 0;
 }
 
@@ -290,6 +305,7 @@ hr {
 
 #faq {
     margin: auto 50px auto 50px;
+    background-color: rgba(251,252,248,0.8);
 }
 
 #questions {
@@ -334,16 +350,19 @@ ul.list {
     #about p {
         padding-left: 20px;
         padding-right: 20px;
+        text-align: justify;
     }
     
     #food p {
         padding-left: 20px;
         padding-right: 20px;
+        text-align: justify;
     }
     
     #grid1 p {
         padding-left: 20px;
         padding-right: 20px;
+        text-align: justify;
     }
 
     #faq {
@@ -376,7 +395,7 @@ ul.list {
         padding-top: 3px;
         padding-right: 3px;
         top: 15%;
-        left: 7%;
+        left: 1%;
         position: absolute;
         text-align: center;
     }
@@ -391,8 +410,6 @@ ul.list {
     margin: 0 auto;
     padding-top: 100px;
   }
-
-
 
   #grid2 div {
     height: 200px;
@@ -414,7 +431,7 @@ ul.list {
     }
 
     #moviessm {
-        margin: 1300px 0 0 0; 
+        margin: 200px 0 0 0; 
         padding: 0 0 10px 0;
     }
 } 
@@ -439,7 +456,7 @@ ul.list {
     }
 
     #moviessm {
-        margin: 600px 0 0 0; 
+        margin: 300px 0 0 0; 
         padding: 0 0 10px 0;
     }
     
