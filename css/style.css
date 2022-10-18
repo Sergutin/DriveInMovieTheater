@@ -50,6 +50,8 @@ p, h1 {
     border-bottom: 2px solid aliceblue;
 }
 
+/* ------------------------------------ MAIN IMAGE AND WELCOME TEXT --------------------------------- */
+
 #drive-in {
     height: 600px;
     width: 100%;
@@ -116,6 +118,19 @@ p, h1 {
     padding-right: 50px;
 }
 
+div.container {
+    text-align: center;
+  }
+
+ul.list {
+    display: inline-block;
+    text-align: left;
+    color: brown;
+    margin-top: 0;
+}
+
+/* ------------------------------------ GRID HIW+MOVIES --------------------------------- */
+
 #grid1 {
     background-color: white;
     height: auto;
@@ -158,6 +173,24 @@ p, h1 {
     text-align: center;
 }
 
+#hiw {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 200%;
+    background-color: white;
+    color: #505050;
+    margin-bottom: -1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#movies {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 250%;
+    margin: 0 auto;
+}
+
 #movie2mon, #movie2sat {
     background: url('../css/images/noexit.jpg') no-repeat center center;
     background-size: contain;
@@ -177,6 +210,8 @@ p, h1 {
 .moviesbody {
     margin: 0 auto;
 }
+
+/* ------------------------------------ BODIES BACKGROUND --------------------------------- */
 
 .homebody, .contactsbody {
     background-color: #707070;
@@ -211,16 +246,7 @@ hr {
     margin: 5px 0;
 }
 
-#hiw {
-    text-align: center;
-    margin: 25px 0;
-    font-size: 200%;
-    background-color: white;
-    color: #505050;
-    margin-bottom: -1px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+/* ------------------------------------ FAQ --------------------------------- */
 
 .faq, .faq2 {
     text-align: center;
@@ -239,6 +265,37 @@ hr {
 
 #faq h3 {
     color: #f4c430;
+}
+
+#faq {
+    /* margin: auto 50px auto 50px; */
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* background-color: rgba(251,252,248,0.8); */
+}
+
+#questions {
+    text-align: center;
+    color: rgb(231, 188, 47);
+    padding-top: 15px;
+}
+
+/* ------------------------------------ CONTACTS --------------------------------- */
+
+#button:hover {
+    background-color: rgb(115, 166, 135);
+ }
+
+#message {
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+ }
+
+#name, #email {
+    width: 400px;
+    margin: 10px;
 }
 
 #contacts {
@@ -265,6 +322,8 @@ hr {
     margin-bottom: 20px;
 }
 
+/* ------------------------------------ SOCIAL MEDIA --------------------------------- */
+
 .sm {
     text-align: center;
     color: white;
@@ -284,53 +343,6 @@ hr {
     font-size: 150%;
     margin: 0 50px 0 50px;
     color: white;
-}
-
-#movies {
-    text-align: center;
-    padding-top: 120px;
-    font-size: 250%;
-    margin: 0 auto;
-}
-
-#button:hover {
-    background-color: rgb(115, 166, 135);
- }
-
-#message {
-    height: 200px;
-    width: 300px;
-    margin: 10px;
- }
-
-#name, #email {
-    width: 300px;
-    margin: 10px;
-}
-
-#faq {
-    /* margin: auto 50px auto 50px; */
-    margin: auto;
-    padding-left: 50px;
-    padding-right: 50px;
-    /* background-color: rgba(251,252,248,0.8); */
-}
-
-#questions {
-    text-align: center;
-    color: rgb(231, 188, 47);
-    padding-top: 15px;
-}
-
-div.container {
-    text-align: center;
-  }
-
-ul.list {
-    display: inline-block;
-    text-align: left;
-    color: brown;
-    margin-top: 0;
 }
 
 /* ------------------------------------ MEDIA QUERIES --------------------------------- */
@@ -386,6 +398,17 @@ ul.list {
     #movie2mon, #movie2sat, #movie1mon, #movie1sat {
         background-size: 260px;
     }
+
+    #message {
+        height: 200px;
+        width: 300px;
+        margin: 10px;
+     }
+    
+    #name, #email {
+        width: 300px;
+        margin: 10px;
+    }
 } 
 
 @media screen and (max-width:950px) {
@@ -424,6 +447,9 @@ ul.list {
     
     #faq {
         margin: auto 20px auto 20px;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: justify;
     }
 
     .faq {
@@ -477,16 +503,6 @@ ul.list {
     #movie2mon, #movie2sat, #movie1mon, #movie1sat {
         background-size: 200px;
     }
-
-    .grid {
-        /* margin: 0; */
-        display: grid;
-        grid-auto-flow: row;
-        gap: 1em;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        justify-content: center;
-    }
 } 
 
 @media screen and (max-width:1200px) {
@@ -532,11 +548,3 @@ ul.list {
         padding: 0 0 10px 0;
     }
 } 
- 
-
-
-
-
-
-
-
