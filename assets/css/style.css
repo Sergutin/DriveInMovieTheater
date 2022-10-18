@@ -55,7 +55,7 @@ p, h1 {
 #drive-in {
     height: 600px;
     width: 100%;
-    background: url('../css/images/drive-in.webp') no-repeat center center;
+    background: url('../images/drive-in.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -192,13 +192,13 @@ ul.list {
 }
 
 #movie2mon, #movie2sat {
-    background: url('../css/images/noexit.jpg') no-repeat center center;
+    background: url('../images/noexit.webp') no-repeat center center;
     background-size: contain;
     color: aliceblue;
 }
 
 #movie1mon, #movie1sat {
-    background: url('../css/images/avatar.jpeg') no-repeat center center;
+    background: url('../images/avatar.webp') no-repeat center center;
     background-size: contain;
     color: aliceblue;
 }
@@ -222,13 +222,13 @@ ul.list {
 .faqbody {
     margin: 0 auto;
     margin-top: -20px !important;
-    background: url('../css/images/drive-in2.webp');
+    background: url('../images/drive-in2.webp');
     background-size: cover;
     /* background-color: rgba(255,255,255,0.4); */
 }
 
 .moviesbody {
-    background: url('../css/images/drive-in2.webp') no-repeat;
+    background: url('../images/drive-in2.webp') no-repeat;
     min-height: 100vh;
     background-size: cover;
     background-color: #d1d1d1;
@@ -236,7 +236,7 @@ ul.list {
 }
 
 .contactsbody {
-    background: url('../css/images/drive-in2.webp') no-repeat;
+    background: url('../images/drive-in2.webp') no-repeat;
     background-size: cover;
 }
 
@@ -259,7 +259,7 @@ hr {
 }
 
 #faq p {
-    color:rgb(231, 188, 47);
+    color:white;
     line-height: 1.5;
 }
 
