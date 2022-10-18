@@ -53,7 +53,7 @@ p, h1 {
 #drive-in {
     height: 600px;
     width: 100%;
-    background: url('../css/images/drive-in.jpeg') no-repeat center center;
+    background: url('../css/images/drive-in.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -135,6 +135,7 @@ p, h1 {
     display: grid;
     grid-auto-flow: row;
     gap: 1em;
+    /* grid-template-columns: 25% 25% 25% 25%; */
 }
 
 @media (min-width: 50em) {
@@ -186,13 +187,13 @@ p, h1 {
 .faqbody {
     margin: 0 auto;
     margin-top: -20px !important;
-    background: url('../css/images/drive-in.jpeg');
+    background: url('../css/images/drive-in2.webp');
     background-size: cover;
-    background-color: rgba(255,255,255,0.4);
+    /* background-color: rgba(255,255,255,0.4); */
 }
 
 .moviesbody {
-    background: url('../css/images/drive-in.jpeg') no-repeat;
+    background: url('../css/images/drive-in2.webp') no-repeat;
     min-height: 100vh;
     background-size: cover;
     background-color: #d1d1d1;
@@ -200,7 +201,7 @@ p, h1 {
 }
 
 .contactsbody {
-    background: url('../css/images/drive-in.jpeg') no-repeat;
+    background: url('../css/images/drive-in2.webp') no-repeat;
     background-size: cover;
 }
 
@@ -223,7 +224,7 @@ hr {
 
 .faq, .faq2 {
     text-align: center;
-    color: #070D0D;
+    color: #f4c430;
 }
 
 .faq {
@@ -232,29 +233,29 @@ hr {
 }
 
 #faq p {
-    color: #070D0D;
+    color: #rgb(231, 188, 47);
     line-height: 1.5;
 }
 
 #faq h3 {
-    color: rgb(196, 186, 129);
+    color: #f4c430;
 }
 
 #contacts {
     text-align: center;
     margin: 0 auto;
     padding-top: 120px;
-    color: black;
+    color: white;
     line-height: 1.5;
 }
 
 #contacts h1 {
-    color: black;
+    color: white;
     font-size: 200%;
 }
 
 #contacts p {
-    color: black;
+    color: white;
 }
 
 #map {
@@ -308,14 +309,17 @@ hr {
 }
 
 #faq {
-    margin: auto 50px auto 50px;
-    background-color: rgba(251,252,248,0.8);
+    /* margin: auto 50px auto 50px; */
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* background-color: rgba(251,252,248,0.8); */
 }
 
 #questions {
     text-align: center;
     color: rgb(231, 188, 47);
-    padding-top: 100px;
+    padding-top: 15px;
 }
 
 div.container {
@@ -331,11 +335,58 @@ ul.list {
 
 /* ------------------------------------ MEDIA QUERIES --------------------------------- */
 
-@media screen and (max-width:1200px) {
-    hr {
-        display: none;
+@media screen and (max-width:375px) {
+    #movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
+        font-size: 150%;
     }
-}
+
+    #movie2mon, #movie2sat, #movie1mon, #movie1sat {
+        background-size: 240px;
+    }
+} 
+
+@media screen and (max-width:425px) {
+    #menu {
+      margin: -55px 0 0 -20px;
+    }
+  
+    #contacts {
+      margin: 0 auto;
+      padding-top: 100px;
+    }
+  
+    #grid2 div {
+      height: 200px;
+      width: auto;
+      margin-top: 70px;
+      }
+  
+      #moviessm {
+      margin: 50px 0 0 0; 
+      padding: 0 0 10px 0;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    #grid2 div {
+        height: 400px;
+        width: auto;
+        margin-top: 70px;
+    }
+
+    #moviessm {
+        margin: 50px 0 0 0; 
+        padding: 0 0 10px 0;
+    }
+
+    #movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
+        font-size: 180%;
+    }
+
+    #movie2mon, #movie2sat, #movie1mon, #movie1sat {
+        background-size: 260px;
+    }
+} 
 
 @media screen and (max-width:950px) {
     #menu {
@@ -407,41 +458,43 @@ ul.list {
     }
 }
 
-@media screen and (max-width:425px) {
-  #menu {
-    margin: -55px 0 0 -20px;
-  }
-
-  #contacts {
-    margin: 0 auto;
-    padding-top: 100px;
-  }
-
-  #grid2 div {
-    height: 200px;
-    width: auto;
-    margin-top: 70px;
-    }
-
-    #moviessm {
-    margin: 50px 0 0 0; 
-    padding: 0 0 10px 0;
-}
-}
-
-@media screen and (max-width:5000px) {
+@media screen and (max-width:1024px) {
     #grid2 div {
-        height: 600px;
+        height: 400px;
         width: auto;
         margin-top: 70px;
     }
 
     #moviessm {
-        margin: 200px 0 0 0; 
+        margin: 500px 0 0 0; 
         padding: 0 0 10px 0;
     }
+
+    #movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
+        font-size: 135%;
+    }
+
+    #movie2mon, #movie2sat, #movie1mon, #movie1sat {
+        background-size: 200px;
+    }
+
+    .grid {
+        /* margin: 0; */
+        display: grid;
+        grid-auto-flow: row;
+        gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
 } 
- 
+
+@media screen and (max-width:1200px) {
+    hr {
+        display: none;
+    }
+}
+
 @media screen and (max-width:1440px) {
     #grid2 div {
         height: 400px;
@@ -464,59 +517,26 @@ ul.list {
     #moviessm {
         margin: 400px 0 0 0; 
         padding: 0 0 10px 0;
-    }
-    
+    }  
 } 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:5000px) {
     #grid2 div {
-        height: 300px;
+        height: 600px;
         width: auto;
         margin-top: 70px;
     }
 
     #moviessm {
-        margin: 500px 0 0 0; 
+        margin: 200px 0 0 0; 
         padding: 0 0 10px 0;
     }
-
-    #movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
-        font-size: 135%;
-    }
-
-    #movie2mon, #movie2sat, #movie1mon, #movie1sat {
-        background-size: 200px;
-    }
-
 } 
+ 
 
-@media screen and (max-width:768px) {
-    #grid2 div {
-        height: 400px;
-        width: auto;
-        margin-top: 70px;
-    }
 
-    #moviessm {
-        margin: 50px 0 0 0; 
-        padding: 0 0 10px 0;
-    }
 
-    #movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
-        font-size: 180%;
-    }
 
-    #movie2mon, #movie2sat, #movie1mon, #movie1sat {
-        background-size: 260px;
-    }
-} 
 
-@media screen and (max-width:375px) {
-    #movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
-        font-size: 150%;
-    }
 
-    #movie2mon, #movie2sat, #movie1mon, #movie1sat {
-        background-size: 240px;
-    }
-} 
+
