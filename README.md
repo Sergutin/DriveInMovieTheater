@@ -68,7 +68,7 @@
 <h4>HTML</h4>
 <p>No errors were returned when passing through the official W3C validator</p>
 
-<img src="assets/images-readme/html-test.jpeg">
+<img src="assets/images-readme/html-test.jpg">
 
 <h4>CSS</h4>
 <p>No errors were found when passing through the official (Jigsaw) validator</p>
