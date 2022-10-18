@@ -18,28 +18,28 @@
 <p>Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Movies, FAQ and Contact Us page and is identical in each page to allow for easy navigation.</p>
 <p>This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.</p>
 
-<img src="./images-readme/menu.jpg">
+<img src="/images-readme/menu.jpg">
 
 <h3>Logo</h3>
 <p>The Logo at the top right corner shows the name of the movie theater, and is clickable - it redirects the user to the Home page every time they click it.</p>
 
-<img src="./images-readme/logo.jpg">
+<img src="../images-readme/logo.jpg">
 
 <h3>About Us section</h3>
 <p>The About Us section will allow the user to see the brief overview of the movie theater, as well as its location.</p>
 
-<img src="./images-readme/aboutus.jpg">
+<img src="assets/images-readme/aboutus.jpg">
 
 <h3>How It Works section</h3>
 <p>This section will answer the first questions the users may have, such as how the sound will be transmitted to the car, will there any seating area be available, and a need to turn off the lights before the movie starts.</p>
 
-<img src="../images-readme/hiw.jpg">
+<img src="../assets/images-readme/hiw.jpg">
 
 <h3>Feeling Hungry section</h3>
 <p>This section will provide the users with information about food and drinks available at the cinema. It will explain how it can be ordered and delivered to the car.</p>
 <p>This section also has a sub-section with the main benefits of the First Drive-In Movie Theater in Cork, such as a unique cinematic experience, and the biggest in Ireland over 20-metres wide screen.</p>
 
-<img src="./images-readme/food.jpg">
+<img src="./assets/images-readme/food.jpg">
 
 <h3>The Footer</h3>
 <p>The footer section includes links to the relevant social media sites for the Movie Theater. The links will open to a new tab to allow easy navigation for the user.</p>
@@ -73,7 +73,7 @@
 <h4>CSS</h4>
 <p>No errors were found when passing through the official (Jigsaw) validator</p>
 
-<img src="../images-readme/css-test.jpg">
+<img src="images-readme/css-test.jpg">
 
 <h4>Lighthouse</h4>
 <p>The website was measured using Lighthouse tool, performance 100% was calculated for desktop device and 100% for mobile device:</p>

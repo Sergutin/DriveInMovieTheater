@@ -211,12 +211,12 @@ ul.list {
     margin: 0 auto;
 }
 
-/* ------------------------------------ BODIES BACKGROUND --------------------------------- */
+/* ------------------------------------ BODIES --------------------------------- */
 
 .homebody, .contactsbody {
     background-color: #707070;
-    margin: 0 auto;
-    margin-top: -20px !important;
+    margin: -20px auto auto auto;
+    /* margin-top: -20px !important; */
 }
 
 .faqbody {
@@ -359,13 +359,18 @@ hr {
 
 @media screen and (max-width:425px) {
     #menu {
-      margin: -55px 0 0 -20px;
+      margin: -50px 0 0 -20px !important;
     }
   
     #contacts {
       margin: 0 auto;
-      padding-top: 100px;
+      padding-top: 140px;
     }
+
+    #movies {
+        margin: 0 auto;
+        padding-top: 150px;
+      }
   
     #grid2 div {
       height: 200px;
@@ -377,6 +382,7 @@ hr {
       margin: 50px 0 0 0; 
       padding: 0 0 10px 0;
     }
+
   }
 
   @media screen and (max-width:768px) {
@@ -408,6 +414,11 @@ hr {
     #name, #email {
         width: 300px;
         margin: 10px;
+    }
+
+    .faq {
+        padding-top: 80px;
+        margin: 0 auto;
     }
 } 
 
