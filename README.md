@@ -6,25 +6,25 @@
 
 <img src="assets/images-readme/devices.jpg">
 
-[Languages Used](#languages)
-[Features](#features)
-[Navigation bar](#menu)
-[Logo](#logo)
-[About Us section](#about-us)
-[How It Works section](#how-it-works)
-[Feeling Hungry section](#food)
-[The Footer](#footer)
-[Movies page](#movies)
-[FAQ page](#faq)
-[Contact Us](#contacts)
-[Testing](#testing)
-[Unfixed Bugs](#bugs)
-[Code Used](#code-used)
-[Content](#content)
-[Media](#media)
-[Deployment](#deployment)
-
-
+<ul>
+<li>[Languages Used](#languages)</li>
+<li>[Features](#features)</li>
+<li>[Navigation bar](#menu)</li>
+<li>[Logo](#logo)</li>
+<li>[About Us section](#about-us)</li>
+<li>[How It Works section](#how-it-works)</li>
+<li>[Feeling Hungry section](#food)</li>
+<li>[The Footer](#footer)</li>
+<li>[Movies page](#movies)</li>
+<li>[FAQ page](#faq)</li>
+<li>[Contact Us](#contacts)</li>
+<li>[Testing](#testing)</li>
+<li>[Unfixed Bugs](#bugs)</li>
+<li>[Code Used](#code-used)</li>
+<li>[Content](#content)</li>
+<li>[Media](#media)</li>
+<li>[Deployment](#deployment)</li>
+</ul>
 
 <h3>Languages Used</h3>
 <p>HTML5</p>
