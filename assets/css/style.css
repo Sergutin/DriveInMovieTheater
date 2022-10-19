@@ -408,6 +408,7 @@ hr {
     .grid {
         /* margin: 30px !important; */
         grid-template-columns: repeat(2, minmax(200px, 1fr));
+        gap: 10px 10px;
         /* gap: 60px; */
     }
 
@@ -532,7 +533,7 @@ hr {
 
     .grid {
         margin: auto;
-        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+        /* grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); */
     }
 
     #moviessm {
