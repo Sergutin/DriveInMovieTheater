@@ -361,19 +361,15 @@ hr {
 
 @media screen and (max-width:425px) {
     #menu {
-      margin: -50px 0 0 -20px !important;
+      margin: -50px 0 -50px -20px !important;
     }
 
     #menu li {
        font-size: 1.2em;
     }
-  
-    #contacts {
-      padding-top: 81px;
-    }
 
     #movies {
-        padding-top: 100px;
+        padding-top: 100px !important;
       }
   
     #grid2 div {
@@ -384,12 +380,21 @@ hr {
 
     .grid {
         margin: auto 10px;
-        grid-template-columns: repeat(1, minmax(auto, 1fr)) !important;
+        grid-template-columns: repeat(1, minmax(100px, 1fr)) !important;
     }
+
   
     #moviessm {
       margin: 50px 0 0 0; 
       padding: 0 0 10px 0;
+    }
+
+    #contacts h1 {
+        padding-top: 16px;
+    }
+
+    #faq h1 {
+        padding-top: 100px;
     }
   }
 
@@ -401,14 +406,24 @@ hr {
     }
 
     .grid {
-        margin: auto 10px;
-        grid-template-columns: repeat(2, minmax(auto, 1fr));
+        /* margin: 30px !important; */
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        /* gap: 60px; */
     }
 
     #moviessm {
         margin: 50px 0 0 0; 
         padding: 0 0 10px 0;
     }
+
+    #movies {
+        padding-top: 80px;
+    }
+
+    #contacts {
+        padding-top: 60px !important;
+    }
+
 
     #movie1sat h2, #movie2sat h2, #movie1mon h2, #movie2mon h2 {
         font-size: 180%;
@@ -517,7 +532,7 @@ hr {
 
     .grid {
         margin: auto;
-        grid-template-columns: repeat(auto-fit, minmax(auto,1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     }
 
     #moviessm {
@@ -559,6 +574,10 @@ hr {
         margin: 0 !important; 
         padding: 0 0 10px 0 !important;
     }  
+
+    #contacts {
+        padding-top: 80px;
+    }
 } 
 
 @media screen and (max-width:5000px) {
