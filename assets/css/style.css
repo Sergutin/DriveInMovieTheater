@@ -146,7 +146,7 @@ ul.list {
     line-height: 1.5;
 }
 
-.release-container {
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 5px 5px;
@@ -382,7 +382,7 @@ hr {
       margin-top: 70px;
       }
 
-    .release-container {
+    .grid {
         margin: auto 10px;
         grid-template-columns: repeat(1, minmax(auto, 1fr)) !important;
     }
@@ -400,9 +400,9 @@ hr {
         margin-top: 20px !important;
     }
 
-    .release-container {
+    .grid {
         margin: auto 10px;
-        grid-template-columns: repeat(2, minmax(auto, auto));
+        grid-template-columns: repeat(2, minmax(auto, 1fr));
     }
 
     #moviessm {
@@ -515,9 +515,9 @@ hr {
         margin-top: 10px;
     }
 
-    .release-container {
+    .grid {
         margin: auto;
-        grid-template-columns: repeat(auto-fit, minmax(auto, auto));
+        grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
     }
 
     #moviessm {
