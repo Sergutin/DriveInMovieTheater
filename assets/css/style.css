@@ -517,7 +517,7 @@ hr {
 
     .grid {
         margin: auto;
-        grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(auto,1fr));
     }
 
     #moviessm {
@@ -557,7 +557,7 @@ hr {
 
     #moviessm {
         margin: 0 !important; 
-        padding: 0 0 10px 0;
+        padding: 0 0 10px 0 !important;
     }  
 } 
 
@@ -569,7 +569,7 @@ hr {
     }
 
     #moviessm {
-        margin: 500px; 
-        padding: 0 0 10px 0;
+        /* margin: 500px;  */
+        padding: 100px 0 10px 0;
     }
 } 
