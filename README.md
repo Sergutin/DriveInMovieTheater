@@ -6,6 +6,26 @@
 
 <img src="assets/images-readme/devices.jpg">
 
+[Languages Used](#languages)
+[Features](#features)
+[Navigation bar](#menu)
+[Logo](#logo)
+[About Us section](#about-us)
+[How It Works section](#how-it-works)
+[Feeling Hungry section](#food)
+[The Footer](#footer)
+[Movies page](#movies)
+[FAQ page](#faq)
+[Contact Us](#contacts)
+[Testing](#testing)
+[Unfixed Bugs](#bugs)
+[Code Used](#code-used)
+[Content](#content)
+[Media](#media)
+[Deployment](#deployment)
+
+
+
 <h3>Languages Used</h3>
 <p>HTML5</p>
 <p>CSS3</p>
@@ -39,7 +59,7 @@
 <p>This section will provide the users with information about food and drinks available at the cinema. It will explain how it can be ordered and delivered to the car.</p>
 <p>This section also has a sub-section with the main benefits of the First Drive-In Movie Theater in Cork, such as a unique cinematic experience, and the biggest in Ireland over 20-metres wide screen.</p>
 
-<img src="assetsassets/images-readme/food.jpg">
+<img src="assets/images-readme/food.jpg">
 
 <h3>The Footer</h3>
 <p>The footer section includes links to the relevant social media sites for the Movie Theater. The links will open to a new tab to allow easy navigation for the user.</p>
