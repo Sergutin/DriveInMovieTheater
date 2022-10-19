@@ -369,12 +369,10 @@ hr {
     }
   
     #contacts {
-      /* margin: 0 auto; */
       padding-top: 81px;
     }
 
     #movies {
-        /* margin: 0 auto; */
         padding-top: 100px;
       }
   
@@ -386,7 +384,7 @@ hr {
 
     .release-container {
         margin: auto 10px;
-        grid-template-columns: repeat(1, minmax(auto, auto)) !important;
+        grid-template-columns: repeat(1, minmax(auto, 1fr)) !important;
     }
   
     #moviessm {
@@ -518,7 +516,6 @@ hr {
     }
 
     .release-container {
-        /* margin: auto 10px; */
         margin: auto;
         grid-template-columns: repeat(auto-fit, minmax(auto, auto));
     }
