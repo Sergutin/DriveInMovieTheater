@@ -197,12 +197,6 @@ ul.list {
     color: aliceblue;
 }
 
-#movie3mon, #movie3sat {
-    background: url('../images/1.jpg') no-repeat center center;
-    background-size: contain;
-    color: aliceblue;
-}
-
 #movie1mon, #movie1sat {
     background: url('../images/avatar.webp') no-repeat center center;
     background-size: contain;
