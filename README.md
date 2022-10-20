@@ -3,7 +3,7 @@
 <p>This project introduces a website of the first drive-in movie theater in Cork. It doesn’t exist in real life, there is no car cinema in Cork for now, but this website might be the very first step towards its implementation.</p>
 <p>Target audience: all age groups, families with children, young adults.</p>
 <p>The main goal of the project is to provide all information about Cork Drive-In Movie Theater, its location, general overview, movies broadcasted etc. 
-The main idea of the website is immediately evident to the users, i.e. the landing page shows the car cinema picture and the "Welcome to the First Drive-In Movie Theater in Cork!" message.
+The main idea of the website is immediately evident to the users, i.e. the landing page shows the car cinema picture with a big screen and cars parked, and the "Welcome to the First Drive-In Movie Theater in Cork!" message.
 Through this website people can get interested in the service we offer and visit our movie theater.</p>
 
 <img src="assets/images-readme/devices.jpg">
@@ -14,7 +14,7 @@ Through this website people can get interested in the service we offer and visit
 * [Logo](#logo)
 * [About Us section](#about-us-section)
 * [How It Works section](#how-it-works-section)
-* [Feeling Hungry section](#feeling-hungry-sectiob)
+* [Feeling Hungry section](#feeling-hungry-section)
 * [The Footer](#the-footer)
 * [Movies page](#movies-page)
 * [FAQ page](#faq-page)
