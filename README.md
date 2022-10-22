@@ -79,7 +79,7 @@ Through this website people can get interested in the service we offer and visit
 
 ## Contact Us
 <p>The Contact Us page invites the user to send their email through the “Email Us” section, shares the phone number and our working hours. 
-The message form doesn't collect user's data but provides the "Thank you" messageto simulate a real form. 
+The message form doesn't collect user's data but provides the "Thank you" message to simulate a real form. 
 It also invites the users to say hello on social medias, and shows how to find us on the map.</p>
 
 <img src="assets/images-readme/contacts.jpg">

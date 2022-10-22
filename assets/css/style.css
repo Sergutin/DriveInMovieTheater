@@ -280,7 +280,7 @@ hr {
 /* ------------------------------------ CONTACTS --------------------------------- */
 
 #button:hover {
-    background-color: rgb(115, 166, 135);
+    background-color: rgb(115, 166, 135) !important;
  }
 
 #message {
