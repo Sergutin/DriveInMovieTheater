@@ -83,6 +83,8 @@ The message form doesn't collect user's data but provides the "Thank you" messag
 It also invites the users to say hello on social medias, and shows how to find us on the map.</p>
 
 <img src="assets/images-readme/contacts.jpg">
+<br>
+<img src="assets/images-readme/thankyou.jpg">
 
 ## Testing
 
