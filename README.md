@@ -106,6 +106,17 @@ It also invites the users to say hello on social medias, and shows how to find u
 <br>
 <img src="assets/images-readme/lhm.jpg">
 
+<h4>Bugs fixed</h4>
+<p>During the project there were a few bugs and errors that have been fixed.</p>
+<ul>
+<li>Error "The element "footer" must not appear as a descendant of the "header" element.</li>
+<p>Solution: "footer" has been removed out of the "header" element in HTML code, all pages.</p>
+<li>Error "Element "h2" not allowed as child of element "ul" in this context".</li>
+<p>Solution: "li" element was added within "ul", and then "h2" element within "li". Error fixed.</p>
+<li>Five "Parse errors" found while W3C CSS validator check, such as "Parse Error display: grid;", Parse Error grid-auto-flow: row;", "Parse Error }", "Parse Error gap: 1em", "Parse Error (90%, 75rem)".</li>
+<p>Solution: removed space after "min" value in line "width: min (90%, 75rem)". Grid code was rewritten afterwards without further errors.</p>
+</ul>
+
 ## Unfixed Bugs
 <p>There are no known unfixed bugs in the code</p>
 
