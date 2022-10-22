@@ -318,6 +318,14 @@ hr {
     margin-bottom: 20px;
 }
 
+#thankyou {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 120px;
+    color: white;
+    line-height: 1.5;
+    }
+
 /* ------------------------------------ SOCIAL MEDIA --------------------------------- */
 
 .sm {
@@ -400,10 +408,8 @@ hr {
     }
 
     .grid {
-        /* margin: 30px !important; */
         grid-template-columns: repeat(2, minmax(200px, 1fr));
         gap: 10px 10px;
-        /* gap: 60px; */
     }
 
     #moviessm {
@@ -527,7 +533,6 @@ hr {
 
     .grid {
         margin: auto;
-        /* grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); */
     }
 
     #moviessm {
@@ -583,7 +588,6 @@ hr {
     }
 
     #moviessm {
-        /* margin: 500px;  */
         padding: 100px 0 10px 0;
     }
 } 
