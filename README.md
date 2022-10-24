@@ -20,11 +20,18 @@ Through this website people can get interested in the service we offer and visit
   * [FAQ page](#faq-page)
   * [Contact Us](#contact-us)
 * [Testing](#testing)
-* [Unfixed Bugs](#unfixed-bugs)
+  * [HTML](#html)
+  * [CSS](#css)
+  * [Lighthouse](#lighthouse)
+  * [Manual Testing](#manual-testing)
+  * [Fixed Bugs](#fixed-bugs)
+  * [Unfixed Bugs](#unfixed-bugs)
+* [Deployment](#deployment)
+
 * [Code Used](#code-used)
 * [Content](#content)
 * [Media](#media)
-* [Deployment](#deployment)
+
 
 ## Languages Used
 <p>HTML5</p>
@@ -88,9 +95,8 @@ It also invites the users to say hello on social medias, and shows how to find u
 
 ## Testing
 
-<h3>Validator testing</h3>
-<h4>HTML</h4>
-<p>No errors were returned when passing through the official W3C validator</p>
+  ### HTML 
+<p>No errors were returned when passing through the official W3C validator testing</p>
 
 <img src="assets/images-readme/html-test.jpg">
 <li>Movies page: https://validator.w3.org/nu/?doc=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Fmovies.html</li>
@@ -98,8 +104,8 @@ It also invites the users to say hello on social medias, and shows how to find u
 <li>Contacts page: https://validator.w3.org/nu/?doc=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Fcontacts.html</li>
 <li>Thankyou page: https://validator.w3.org/nu/?doc=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Fthankyou.html%3F</li>
 
-<h4>CSS</h4>
-<p>No errors were found when passing through the official (Jigsaw) validator</p>
+  ### CSS 
+<p>No errors were found when passing through the official (Jigsaw) CSS validator</p>
 
 <img src="assets/images-readme/css-test.jpg">
 
@@ -108,25 +114,14 @@ It also invites the users to say hello on social medias, and shows how to find u
 <li>Contacts page: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Fcontacts.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en</li>
 <li>Thankyou page: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Fthankyou.html%3F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en</li>
 
-<h4>Lighthouse</h4>
+  ### Lighthouse
 <p>The website was measured using Lighthouse tool, performance 100% was calculated for desktop device and 100% for mobile device:</p>
 
 <img src="assets/images-readme/lhd.jpg">
 <br>
 <img src="assets/images-readme/lhm.jpg">
 
-<h4>Bugs fixed</h4>
-<p>During the project there were a few bugs and errors that have been fixed.</p>
-<ul>
-<li>Error "The element "footer" must not appear as a descendant of the "header" element.</li>
-<p>Solution: "footer" has been removed out of the "header" element in HTML code, all pages.</p>
-<li>Error "Element "h2" not allowed as child of element "ul" in this context".</li>
-<p>Solution: "li" element was added within "ul", and then "h2" element within "li". Error fixed.</p>
-<li>Five "Parse errors" found while W3C CSS validator check, such as "Parse Error display: grid;", Parse Error grid-auto-flow: row;", "Parse Error }", "Parse Error gap: 1em", "Parse Error (90%, 75rem)".</li>
-<p>Solution: removed space after "min" value in line "width: min (90%, 75rem)". Grid code was rewritten afterwards without further errors.</p>
-</ul>
-
-## Manual testing
+  ### Manual testing
 <p>Responsiveness was tested in different browsers:</p>
 <li>Chrome</li>
 <img src="assets/images-readme/chrome.jpg">
@@ -143,7 +138,18 @@ It also invites the users to say hello on social medias, and shows how to find u
 
 <p>No broken links found, everything works as expected.</p>
 
-## Unfixed Bugs
+  ### Fixed Bugs
+<p>During the project there were a few bugs and errors that have been fixed.</p>
+<ul>
+<li>Error "The element "footer" must not appear as a descendant of the "header" element.</li>
+<p>Solution: "footer" has been removed out of the "header" element in HTML code, all pages.</p>
+<li>Error "Element "h2" not allowed as child of element "ul" in this context".</li>
+<p>Solution: "li" element was added within "ul", and then "h2" element within "li". Error fixed.</p>
+<li>Five "Parse errors" found while W3C CSS validator check, such as "Parse Error display: grid;", Parse Error grid-auto-flow: row;", "Parse Error }", "Parse Error gap: 1em", "Parse Error (90%, 75rem)".</li>
+<p>Solution: removed space after "min" value in line "width: min (90%, 75rem)". Grid code was rewritten afterwards without further errors.</p>
+</ul>
+
+  ### Unfixed Bugs
 <p>There are no known unfixed bugs in the code</p>
 
 ## Deployment
