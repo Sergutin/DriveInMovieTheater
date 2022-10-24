@@ -27,7 +27,9 @@ Through this website people can get interested in the service we offer and visit
   * [Fixed Bugs](#fixed-bugs)
   * [Unfixed Bugs](#unfixed-bugs)
 * [Deployment](#deployment)
-
+  * [Cloning and forking](#cloning-and-forking)
+  * [Local deployment](#local-deployment)
+  * [Remote deployment](#remote-deployment)
 * [Code Used](#code-used)
 * [Content](#content)
 * [Media](#media)
@@ -156,6 +158,34 @@ It also invites the users to say hello on social medias, and shows how to find u
 <p>The site is deployed using GitHub pages.</p>
 
   ### Cloning and forking
+<p>Forking a repository creates a copy of the original repository on GitHub account.
+To fork a repository in GitHub:</p>
+<ol>
+<li>On GitHub.com, navigate to the repository.</li>
+<li>In the top-right corner of the page, click Fork.</li>
+<img src="assets/images-readme/fork.jpg">
+<li>Select an owner for the forked repository.</li>
+<li>By default, forks are named the same as their parent repositories. You can change the name of the fork to distinguish it further.</li>
+<li>Optionally, add a description of your fork.</li>
+<li>Choose whether to copy only the default branch or all branches to the new fork. For many forking scenarios, such as contributing to open-source projects, you only need to copy the default branch. By default, only the default branch is copied.</li>
+<li>Click Create fork.</li>
+</ol>
+
+<p>Cloning a repository creates a copy of the original repository on our local machine.
+To clone a repository in GitHub:</p>
+<ol>
+<li>On GitHub.com, navigate to your fork of the repository.</li>
+<li>Above the list of files, click  Code.</li>
+<img src="assets/images-readme/code.jpg">
+<li>Copy the URL for the repository.</li>
+<ul>
+    <li>To clone the repository using HTTPS, click the "Copy" icon on the right of "HTTPS".</li>
+<img src="assets/images-readme/clonehttps.jpg">
+<li>To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click the icon on the right to copy it.</li>
+  <li>To clone a repository using GitHub CLI, click GitHub CLI, then click the "Copy" icon on the right.</li>
+</ul>
+</ol>
+
 
   ### Local deployment
 
