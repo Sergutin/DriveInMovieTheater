@@ -385,6 +385,10 @@ hr {
         grid-template-columns: repeat(1, minmax(100px, 1fr)) !important;
     }
 
+    #grid1 h2 {
+        padding: 0 0.5rem;
+    }
+
   
     #moviessm {
       margin: 50px 0 0 0; 
