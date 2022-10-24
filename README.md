@@ -146,6 +146,19 @@ It also invites the users to say hello on social medias, and shows how to find u
 ## Unfixed Bugs
 <p>There are no known unfixed bugs in the code</p>
 
+## Deployment
+<p>The site is deployed using GitHub pages.</p>
+
+  ### Cloning and forking
+
+  ### Local deployment
+
+  ### Remote deployment
+
+
+
+
+
 ## Code Used
 <p>The Code Institute student template for Gitpod was used for the site creation.
 Instructions on how to use Grid CSS was taken from YouTube Tutorial https://youtu.be/_lEkD8IGkwo </p>
@@ -158,5 +171,3 @@ Instructions on how to use Grid CSS was taken from YouTube Tutorial https://yout
 <p>Movie Avatar image was taken from IMDb website: https://m.media-amazon.com/images/M/MV5BMWFmYmRiYzMtMTQ4YS00NjA5LTliYTgtMmM3OTc4OGY3MTFkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg</p>
 <p>Movie No Exit image was taken from IMDb website: https://m.media-amazon.com/images/M/MV5BYTc4M2Q2Y2YtMjM0MS00ZTEyLWExYmMtMjEzNjlmNTNjMWYxXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_FMjpg_UX1000_.jpg</p>
 
-## Deployment
-<p>The site is deployed using GitHub pages.</p>
