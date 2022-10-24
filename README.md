@@ -96,17 +96,17 @@ It also invites the users to say hello on social medias, and shows how to find u
 <li>Movies page: https://validator.w3.org/nu/?doc=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Fmovies.html</li>
 <li>FAQ page: https://validator.w3.org/nu/?doc=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Ffaq.html</li>
 <li>Contacts page: https://validator.w3.org/nu/?doc=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Fcontacts.html</li>
-<li>Thankyou page:</li>
-<li></li>
+<li>Thankyou page: https://validator.w3.org/nu/?doc=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Fthankyou.html%3F</li>
 
 <h4>CSS</h4>
 <p>No errors were found when passing through the official (Jigsaw) validator</p>
+
+<img src="assets/images-readme/css-test.jpg">
+
 <li>Movies page: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Fmovies.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en</li>
 <li>FAQ page: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Ffaq.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en</li>
 <li>Contacts page: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Fcontacts.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en</li>
 <li>Thankyou page: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsergutin.github.io%2FDriveInMovieTheater%2Fthankyou.html%3F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en</li>
-
-<img src="assets/images-readme/css-test.jpg">
 
 <h4>Lighthouse</h4>
 <p>The website was measured using Lighthouse tool, performance 100% was calculated for desktop device and 100% for mobile device:</p>
@@ -114,9 +114,6 @@ It also invites the users to say hello on social medias, and shows how to find u
 <img src="assets/images-readme/lhd.jpg">
 <br>
 <img src="assets/images-readme/lhm.jpg">
-<li></li>
-<li></li>
-<li></li>
 
 <h4>Bugs fixed</h4>
 <p>During the project there were a few bugs and errors that have been fixed.</p>
@@ -128,6 +125,23 @@ It also invites the users to say hello on social medias, and shows how to find u
 <li>Five "Parse errors" found while W3C CSS validator check, such as "Parse Error display: grid;", Parse Error grid-auto-flow: row;", "Parse Error }", "Parse Error gap: 1em", "Parse Error (90%, 75rem)".</li>
 <p>Solution: removed space after "min" value in line "width: min (90%, 75rem)". Grid code was rewritten afterwards without further errors.</p>
 </ul>
+
+## Manual testing
+<p>Responsiveness was tested in different browsers:</p>
+<li>Chrome</li>
+<img src="assets/images-readme/chrome.jpg">
+<li>Safari</li>
+<img src="assets/images-readme/safari.jpg">
+<li>Firefox</li>
+<img src="assets/images-readme/firefox.jpg">
+
+<p>Tests were completed in following browsers from mobile device:</p>
+<li>Chrome</li>
+<img src="assets/images-readme/chromem.jpg">
+<li>Safari</li>
+<img src="assets/images-readme/safarim.jpg">
+
+<p>No broken links found, everything works as expected.</p>
 
 ## Unfixed Bugs
 <p>There are no known unfixed bugs in the code</p>
