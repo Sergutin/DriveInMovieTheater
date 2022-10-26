@@ -28,8 +28,6 @@ Through this website people can get interested in the service we offer and visit
   * [Unfixed Bugs](#unfixed-bugs)
 * [Deployment](#deployment)
   * [Cloning and forking](#cloning-and-forking)
-  * [Local deployment](#local-deployment)
-  * [Remote deployment](#remote-deployment)
 * [Code Used](#code-used)
 * [Content](#content)
 * [Media](#media)
@@ -132,7 +130,7 @@ It also invites the users to say hello on social medias, and shows how to find u
 <li>Firefox</li>
 <img src="assets/images-readme/firefox.jpg">
 
-<p>Tests were completed in following browsers from mobile device:</p>
+<p>Tests were completed in following browsers from mobile device (iOS):</p>
 <li>Chrome</li>
 <img src="assets/images-readme/chromem.jpg">
 <li>Safari</li>
@@ -155,7 +153,16 @@ It also invites the users to say hello on social medias, and shows how to find u
 <p>There are no known unfixed bugs in the code</p>
 
 ## Deployment
-<p>The site is deployed using GitHub pages.</p>
+<p>The site is deployed using GitHub Pages.</p>
+<p>To deploy the site using GitHub Pages:</p>
+<ol>
+<li>Login or signup to Github.</li>
+<li>Go to the repository for this project, https://github.com/Sergutin/DriveInMovieTheater</li>
+<li>At the top of the repository, locate the "Settings" button on the menu.</li>
+<li>Select "Pages" section in the left hand menu.</li>
+<li>From the "Source" dropdown select "Deploy from a Branch". Press "Save".</li>
+<li>The site has now been deployed, please note that the process may take a few minutes before the site goes live.</li>
+</ol>
 
   ### Cloning and forking
 <p>Forking a repository creates a copy of the original repository on GitHub account.
@@ -185,15 +192,6 @@ To clone a repository in GitHub:</p>
   <li>To clone a repository using GitHub CLI, click GitHub CLI, then click the "Copy" icon on the right.</li>
 </ul>
 </ol>
-
-
-  ### Local deployment
-
-  ### Remote deployment
-
-
-
-
 
 ## Code Used
 <p>The Code Institute student template for Gitpod was used for the site creation.
